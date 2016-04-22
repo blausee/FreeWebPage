@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Free Web Page</title>
+    <meta charset="utf-8">
+    <script>
+      function init() {
+        var elmt = document.getElementById("HW");
+        elmt.onclick = changeColor;
+      }
+
+      function changeColor() {
+
+        var elmt = document.getElementById("HW");
+        elmt.setAttribute("style","color:blue");
+
+      }
+
+
+      window.onload = init;
+    </script>
+  </head>
+
+  <body>
+
+    <h1 id="HW" style="color:red">
+      Hello World! Please click me!
+    </h1>
+
+    
+
+
+  </body>
+
+</html>
